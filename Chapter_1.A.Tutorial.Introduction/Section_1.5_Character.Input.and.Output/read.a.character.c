@@ -3,6 +3,7 @@
  * read a character, while charater is not end of line indicator, output the
  * character just read.
  *
+ * date: 2013-06-07
  */
 
 #include <stdio.h>
