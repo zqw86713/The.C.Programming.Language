@@ -1,24 +1,25 @@
 #include<stdio.h>
 
 int main() {
-	int i;
-	int a[10];
+        int i;
+            int a[10];
 
-	int *p = a;
+                int *p = a;
 
-	printf("Please enter 10 integer numbers: ");
+                    printf("Please enter 10 integer numbers: ");
 
-	for (i = 0; i<10; i++) {
-		scanf("%d", p++);
-	}
+                        for (i = 0; i<10; i++) {
+                                    scanf("%d", p++);
+                                        }
 
-	p = a;
+                              p = a;
 
-	for (i = 0; i < 10; i++, p++ ) {
-		printf("%d ", *p);
-	}
+                                for (i = 0; i < 10; i++, p++ ) {
+                                            printf("%d ", *p);
+                                                }
 
-	printf("\n");
-	return 0;
+                                    printf("\n");
+                                        return 0;
 }
+
 
